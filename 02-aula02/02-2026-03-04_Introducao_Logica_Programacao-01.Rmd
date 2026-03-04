@@ -1,5 +1,7 @@
 # Introdução a Lógica de Programação
 
+![](images/apresentacao_aula_02_qr-code.png)
+
 ## Programas Compilados
 
 Em uma linguagem compilada, existe um passo prévio chamado **compilação**. Um programa especial (o compilador) lê todo o código-fonte de uma vez, verifica erros e o traduz integralmente em um arquivo binário executável (como um `.exe` no Windows).
@@ -39,7 +41,7 @@ Resumo das vantagens e desvantagens dos 2 paradigmas:
 ## Início de Desenvolvimento: Operações básicas de linguagens de alto-nível
 
 | Operação | Analogia Humana      | Função Principal                           |
-|----------------|------------------|--------------------------------------|
+|------------------|------------------|-------------------------------------|
 | Escrever | Falar / Mostrar      | Exibir informações para o usuário.         |
 | Ler      | Ouvir / Observar     | Obter dados externos para o sistema.       |
 | Decidir  | Escolher um caminho  | Criar bifurcações lógicas no fluxo.        |
@@ -326,8 +328,7 @@ int main()
 
 ### Exemplo-11:
 
-Vamos fazer um algoritmo para *ler do teclado* duas strings (dois textos), 
-concatena-los e *escrever na tela* o resultado.
+Vamos fazer um algoritmo para *ler do teclado* duas strings (dois textos), concatena-los e *escrever na tela* o resultado.
 
 Use a **linguagem C**:
 
@@ -371,8 +372,7 @@ int main()
 
 Veja o código a seguir, quase igual ao anterior
 
-Vamos fazer um algoritmo para *ler do teclado* duas parcelas (dois números), 
-soma-los e *escrever na tela* o resultado.
+Vamos fazer um algoritmo para *ler do teclado* duas parcelas (dois números), soma-los e *escrever na tela* o resultado.
 
 ```{c exemplo-11-parte2,  eval=FALSE, echo=TRUE}
 
