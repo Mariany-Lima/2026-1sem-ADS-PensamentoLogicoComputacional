@@ -219,6 +219,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.7.5" data-path="introdução-a-lógica-de-programação.html"><a href="introdução-a-lógica-de-programação.html#ferramentas"><i class="fa fa-check"></i><b>2.7.5</b> Ferramentas:</a></li>
 </ul></li>
 <li class="chapter" data-level="2.8" data-path="introdução-a-lógica-de-programação.html"><a href="introdução-a-lógica-de-programação.html#exerc%C3%ADcios-de-estruturas-de-controle---repeti%C3%A7%C3%A3o-e-decis%C3%A3o"><i class="fa fa-check"></i><b>2.8</b> Exercícios de Estruturas de Controle - Repetição e Decisão</a></li>
+<li class="chapter" data-level="2.9" data-path="introdução-a-lógica-de-programação.html"><a href="introdução-a-lógica-de-programação.html#exerc%C3%ADcios-de-estruturas-de-repeit%C3%A7%C3%A3o"><i class="fa fa-check"></i><b>2.9</b> Exercícios de Estruturas de Repeitção:</a></li>
+<li class="chapter" data-level="2.10" data-path="introdução-a-lógica-de-programação.html"><a href="introdução-a-lógica-de-programação.html#exerc%C3%ADcios-de-estruturas-de-controle"><i class="fa fa-check"></i><b>2.10</b> Exercícios de Estruturas de Controle:</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html"><i class="fa fa-check"></i><b>3</b> Estudo Detalhado: Estruturas de Repetição e Estruturas de Controle</a>
 <ul>
@@ -293,28 +295,28 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3><span class="header-section-number">3.1.1</span> O Laço WHILE (“enquanto”)<a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#o-la%C3%A7o-while-enquanto" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Utilizado quando não sabemos exatamente quantas vezes o código será executado, mas sabemos a condição de parada.</p>
 <p>Pode criar a repetição ifinitamente, caso a condição de parada ninca for falsa.</p>
-<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb25-1" tabindex="-1"></a></span>
-<span id="cb25-2"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb25-2" tabindex="-1"></a>contador <span class="op">=</span> <span class="dv">1</span></span>
-<span id="cb25-3"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb25-3" tabindex="-1"></a></span>
-<span id="cb25-4"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb25-4" tabindex="-1"></a><span class="cf">while</span> contador <span class="op">&lt;=</span> <span class="dv">5</span>:</span>
-<span id="cb25-5"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb25-5" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Repetição número </span><span class="sc">{</span>contador<span class="sc">}</span><span class="ss">&quot;</span>)</span>
-<span id="cb25-6"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb25-6" tabindex="-1"></a>    contador <span class="op">+=</span> <span class="dv">1</span>  <span class="co"># Incremento fundamental</span></span></code></pre></div>
+<div class="sourceCode" id="cb41"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb41-1" tabindex="-1"></a></span>
+<span id="cb41-2"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb41-2" tabindex="-1"></a>contador <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb41-3"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb41-3" tabindex="-1"></a></span>
+<span id="cb41-4"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb41-4" tabindex="-1"></a><span class="cf">while</span> contador <span class="op">&lt;=</span> <span class="dv">5</span>:</span>
+<span id="cb41-5"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb41-5" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Repetição número </span><span class="sc">{</span>contador<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb41-6"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb41-6" tabindex="-1"></a>    contador <span class="op">+=</span> <span class="dv">1</span>  <span class="co"># Incremento fundamental</span></span></code></pre></div>
 </div>
 <div id="o-laço-for-para-cada" class="section level3 hasAnchor" number="3.1.2">
 <h3><span class="header-section-number">3.1.2</span> O Laço FOR (“para cada”)<a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#o-la%C3%A7o-for-para-cada" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Em Python, o for é muito potente pois ele percorre sequências (listas, strings, intervalos). É a forma mais comum de computar (iterar) sobre dados.</p>
-<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb26-1" tabindex="-1"></a><span class="co"># Exemplo com lista</span></span>
-<span id="cb26-2"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb26-2" tabindex="-1"></a></span>
-<span id="cb26-3"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb26-3" tabindex="-1"></a>frutas <span class="op">=</span> [<span class="st">&quot;Maçã&quot;</span>, <span class="st">&quot;Banana&quot;</span>, <span class="st">&quot;Uva&quot;</span>]</span>
-<span id="cb26-4"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb26-4" tabindex="-1"></a></span>
-<span id="cb26-5"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb26-5" tabindex="-1"></a><span class="cf">for</span> fruta <span class="kw">in</span> frutas:</span>
-<span id="cb26-6"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb26-6" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Eu gosto de </span><span class="sc">{</span>frutas<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb42"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb42-1" tabindex="-1"></a><span class="co"># Exemplo com lista</span></span>
+<span id="cb42-2"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb42-2" tabindex="-1"></a></span>
+<span id="cb42-3"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb42-3" tabindex="-1"></a>frutas <span class="op">=</span> [<span class="st">&quot;Maçã&quot;</span>, <span class="st">&quot;Banana&quot;</span>, <span class="st">&quot;Uva&quot;</span>]</span>
+<span id="cb42-4"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb42-4" tabindex="-1"></a></span>
+<span id="cb42-5"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb42-5" tabindex="-1"></a><span class="cf">for</span> fruta <span class="kw">in</span> frutas:</span>
+<span id="cb42-6"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb42-6" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Eu gosto de </span><span class="sc">{</span>frutas<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
 <p>OBS: aqui vamos usar também a função RANGE() que gera uma sequência de 0 a 4.</p>
-<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb27-1" tabindex="-1"></a></span>
-<span id="cb27-2"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb27-2" tabindex="-1"></a><span class="co"># Exemplo utilizando a função range</span></span>
-<span id="cb27-3"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb27-3" tabindex="-1"></a></span>
-<span id="cb27-4"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb27-4" tabindex="-1"></a><span class="cf">for</span> meu_contador <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">5</span>):</span>
-<span id="cb27-5"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb27-5" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Índice: </span><span class="sc">{</span>meu_contador<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb43"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb43-1" tabindex="-1"></a></span>
+<span id="cb43-2"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb43-2" tabindex="-1"></a><span class="co"># Exemplo utilizando a função range</span></span>
+<span id="cb43-3"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb43-3" tabindex="-1"></a></span>
+<span id="cb43-4"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb43-4" tabindex="-1"></a><span class="cf">for</span> meu_contador <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">5</span>):</span>
+<span id="cb43-5"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb43-5" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Índice: </span><span class="sc">{</span>meu_contador<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
 </div>
 </div>
 <div id="estruturas-de-controle" class="section level2 hasAnchor" number="3.2">
@@ -324,16 +326,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li><p><strong>Lógica:</strong> <strong>SE</strong> (condição) então faça A; <strong>SENÃO</strong>, faça B.</p></li>
 <li><p><strong>Exemplo:</strong> Se a nota for maior que 7, o aluno está “Aprovado”; caso contrário, “Reprovado”.</p>
-<div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb28-1" tabindex="-1"></a><span class="co"># 1. Recebe a nota (usamos float para permitir números com vírgula, como 7.5)</span></span>
-<span id="cb28-2"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb28-2" tabindex="-1"></a></span>
-<span id="cb28-3"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb28-3" tabindex="-1"></a>nota <span class="op">=</span> <span class="bu">float</span>(<span class="bu">input</span>(<span class="st">&quot;Digite a nota do aluno: &quot;</span>))</span>
-<span id="cb28-4"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb28-4" tabindex="-1"></a></span>
-<span id="cb28-5"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb28-5" tabindex="-1"></a><span class="co"># 2. Verifica a condição de aprovação</span></span>
-<span id="cb28-6"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb28-6" tabindex="-1"></a></span>
-<span id="cb28-7"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb28-7" tabindex="-1"></a><span class="cf">if</span> nota <span class="op">&gt;</span> <span class="dv">7</span>:</span>
-<span id="cb28-8"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb28-8" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Aprovado&quot;</span>)</span>
-<span id="cb28-9"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb28-9" tabindex="-1"></a><span class="cf">else</span>:</span>
-<span id="cb28-10"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb28-10" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Reprovado&quot;</span>)</span></code></pre></div></li>
+<div class="sourceCode" id="cb44"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb44-1" tabindex="-1"></a><span class="co"># 1. Recebe a nota (usamos float para permitir números com vírgula, como 7.5)</span></span>
+<span id="cb44-2"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb44-2" tabindex="-1"></a></span>
+<span id="cb44-3"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb44-3" tabindex="-1"></a>nota <span class="op">=</span> <span class="bu">float</span>(<span class="bu">input</span>(<span class="st">&quot;Digite a nota do aluno: &quot;</span>))</span>
+<span id="cb44-4"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb44-4" tabindex="-1"></a></span>
+<span id="cb44-5"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb44-5" tabindex="-1"></a><span class="co"># 2. Verifica a condição de aprovação</span></span>
+<span id="cb44-6"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb44-6" tabindex="-1"></a></span>
+<span id="cb44-7"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb44-7" tabindex="-1"></a><span class="cf">if</span> nota <span class="op">&gt;</span> <span class="dv">7</span>:</span>
+<span id="cb44-8"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb44-8" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Aprovado&quot;</span>)</span>
+<span id="cb44-9"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb44-9" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb44-10"><a href="estudo-detalhado-estruturas-de-repetição-e-estruturas-de-controle.html#cb44-10" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Reprovado&quot;</span>)</span></code></pre></div></li>
 </ul>
 
 </div>
